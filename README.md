@@ -23,6 +23,9 @@ you should win the CF!
 ![image](https://user-images.githubusercontent.com/130197945/230700146-2fec8d8c-8a01-4a9e-9aa7-23b506061226.png)
 
 
+## HOW TO FIND THE GAME ID
+The game ID is located in the url, its the string beetween "&isLimited" and "&coinflipId=". 
+
 ## THIS IS A FREE VERSION
 
 even though it is a free version, it has the same prediction % and efficency than the paid version. The paid version contain
