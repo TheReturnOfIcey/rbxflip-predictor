@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RBXFLIP predictor</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 200px;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      
+      img {
+        width: 100px;
+        transition: transform 0.5s ease;
+      }
+      
+      label {
+        margin-right: 10px;
+      }
+      
+      input[type="text"] {
+        width: 100%;
+        margin-top: 10px;
+      }
+      
+      button {
+        margin-top: 10px;
+        pointer-events: none;
+        opacity: 0.5;
+      }
+      
+      button.enabled {
+        pointer-events: auto;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>RBXFLIP predictor</h1>
+    <img src="https://cdn.discordapp.com/attachments/1073018618037674097/1094036920260112444/image.png" alt="RBXFLIP logo" id="flip-image">
+    <br><br>
+    <label for="input-value">Please enter a valid ID</label>
+    <input type="text" id="input-value" minlength="21">
+    <br><br>
+    <button id="flip-button">Flip!</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+
