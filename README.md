@@ -5,7 +5,7 @@ A new and working predictor for rbxflip.com that use server side API & the solan
 # Setup
 ## Configuration
 
-1. download the rbxflip predictor folder
+1. download the rbxflip predictor folder in release
 2. open chrome extension tab
 3. enable developper mod
 4. click "load unpacked"
